@@ -1,0 +1,17 @@
+Short:        Calculate the SHA-256 hashes of files
+Author:       Robert Leffmann
+Type:         util/cli
+Version:      1.2
+Replaces:     util/cli/sha256.lha
+Architecture: m68k-amigaos >= 2.0
+Distribution: Aminet
+
+A command-line utility to calculate the SHA-256 hashes of a list of files.
+
+Usage: sha256 [files]
+
+Wildcards are allowed in the filenames. The standard input will be used when
+no files are specified.
+
+You are free to use, modify, and redistribute the program and its source code
+provided that you acknowledge the original author.
