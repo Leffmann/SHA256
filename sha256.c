@@ -58,7 +58,7 @@ int main(int nargs, const char** args) {
 
     struct AnchorPath* ap = AllocVec(sizeof (struct AnchorPath)+500, MEMF_ANY|MEMF_CLEAR);
     if (!ap) {
-      free(buffer);
+      FreeVec(buffer);
       return RETURN_ERROR;
     }
 
